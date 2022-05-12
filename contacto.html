@@ -35,10 +35,16 @@
       </div>
     </header>
 
-    <main class="contacto-cuerpo">
+    <main class="maincontacto">
       <form>
         <label for="nombreyapellido">Nombre y Apellido</label>
-        <input type="text" id="nombreyapellido" class="input-padron" required />
+        <input
+          type="text"
+          id="nombreyapellido"
+          class="input-padron"
+          required
+          placeholder="Nombre y Apellido"
+        />
 
         <label for="correo">Correo Electronico</label>
         <input
@@ -58,15 +64,20 @@
           placeholder="(XX) XX XXXX-XXXXX"
         />
 
-        <label for="mensaje">Mensaje</label>
-        <textarea cols="70" rows="10" id="mensaje" required></textarea>
+        <label for="mensaje" class="mensajecontacto">Mensaje</label>
+        <textarea
+          cols="40"
+          rows="10"
+          id="mensaje"
+          required
+          placeholder="Inserte su mensaje..."
+        ></textarea>
 
         <fieldset>
           <legend>Como le gustaria que lo contactemos?</legend>
 
           <label for="radio-email">
-            <input type="radio" name="contacto" id="radio-email" />
-            Email</label
+            <input type="radio" name="contacto" id="radio-email" />Email</label
           >
 
           <label for="radio-telefono">
@@ -88,9 +99,9 @@
         </fieldset>
 
         <div>
-          <p>En que horario prefiere ser atendido?</p>
+          <legend>En que horario prefiere ser atendido?</legend>
           <select>
-            <option>Manana</option>
+            <option>Mañana</option>
             <option>Tarde</option>
             <option>Noche</option>
           </select>
@@ -118,11 +129,11 @@
           </tr>
           <tr>
             <td>Miercoles</td>
-            <td>08 - 20h</td>
+            <td>08h - 20h</td>
           </tr>
           <tr>
             <td>Jueves</td>
-            <td>08 - 20h</td>
+            <td>08h - 20h</td>
           </tr>
         </tbody>
       </table>

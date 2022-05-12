@@ -44,9 +44,12 @@ nav a:hover {
 }
 
 .productos {
-  width: 940px;
   margin: 0 auto;
   padding: 50px;
+}
+
+.imagenbarba {
+  width: auto;
 }
 
 .productos li {
@@ -72,6 +75,7 @@ nav a:hover {
 }
 
 .productos h2 {
+  padding-bottom: 50px;
   font-size: 30px;
   font-weight: bold;
 }
@@ -108,7 +112,7 @@ footer:hover {
   margin: 20px;
 }
 
-.contacto-cuerpo {
+.maincontacto {
   margin-left: 10%;
 }
 
@@ -288,12 +292,17 @@ th {
   .mapa-contenido,
   .contenido-diferenciales,
   .video,
-  .productos {
+  .mensajecontacto {
     width: auto;
   }
 
   .lista-diferenciales,
-  .imagen-diferenciales {
+  .imagen-diferenciales,
+  .productos li {
     width: 100%;
+  }
+
+  .productos li {
+    margin: 20px 0 20px 0;
   }
 }

@@ -1,0 +1,43 @@
+.principal {
+  background: #ffffff;
+}
+.tituloprincipal {
+  padding-left: 30px;
+  background: #271f94;
+}
+
+#banner {
+  width: 99%;
+  border: 5px solid;
+}
+
+.titulocentralizado {
+  text-align: center;
+  background: #636363;
+}
+
+p {
+  text-align: center;
+}
+
+em strong {
+  color: #7e2020;
+}
+
+.diferenciales {
+  background: #cccccc;
+}
+
+.items {
+  font-style: italic;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+.diferenciales {
+  width: 50%;
+}
